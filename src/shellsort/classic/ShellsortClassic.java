@@ -29,7 +29,10 @@ public class ShellsortClassic {
         }
     }
     public static void shellSort(ArrayList<Integer> numbers){
-
+    	for(int i = 0;i<numbers.size();i++) {
+    		
+    	}
+    	
     }
 
 }
