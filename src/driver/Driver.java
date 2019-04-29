@@ -5,13 +5,11 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import org.apache.logging.log4j.core.*;
-
 import shellsort.classic.ShellsortClassic;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class Main {
+public class Driver {
 	private static final Logger LOG = LogManager.getLogger(Main.class);
 
 	public static void main(String[] args) throws IOException {

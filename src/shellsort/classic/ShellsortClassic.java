@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import insertionsort.general.InsertionSort;
 
-public class ShellsortClassic {
+public class ShellsortClassic { 
     public void printSortedList(ArrayList<Integer> numbers) {
     	for(int n:numbers) {
     		System.out.print(n+" ");

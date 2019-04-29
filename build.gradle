@@ -7,19 +7,8 @@
 plugins {
 	id "base"
 	id "java"
-	id 'io.spring.dependency-management' version '1.0.1.RELEASE'
-}
-dependencyManagement {
-  imports {
-    mavenBom 'org.apache.logging.log4j:log4j-bom:2.11.2'
-  }
 }
 task zip(type: Zip, group: "Archive", description:"Project packer"){
 	from "src"
 	setArchiveName "Shellsort_balachaa.zip"
 }
-dependencies {
-      compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.11.2'
-      compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.11.2'
-}
- 
