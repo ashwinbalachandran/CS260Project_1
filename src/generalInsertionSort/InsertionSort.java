@@ -1,5 +1,4 @@
-package insertionsort.general;
-
+package generalInsertionSort;
 import java.util.ArrayList;
 
 public class InsertionSort {

@@ -1,9 +1,7 @@
-package shellsort.classic;
-
+package classicShellSort;
 import java.util.ArrayList;
 
-import insertionsort.general.InsertionSort;
-
+import generalInsertionSort.InsertionSort;
 public class ShellsortClassic { 
     public void printSortedList(ArrayList<Integer> numbers) {
     	for(int n:numbers) {

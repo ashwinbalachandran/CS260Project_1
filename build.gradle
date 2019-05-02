@@ -12,3 +12,6 @@ task zip(type: Zip, group: "Archive", description:"Project packer"){
 	from "src"
 	setArchiveName "Shellsort_balachaa.zip"
 }
+dependencies {
+    compile group: 'de.erichseifert.gral', name: 'gral-core', version: '0.11'
+}
